@@ -9,10 +9,12 @@ const DeadlineTimer = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setRemaining(getRemainingTime())
-    }, 1000)
+    }, 60000)
 
     return () => clearInterval(timer)
   }, [])
+
+
 
   return (
     <div className="text-white text-center">
