@@ -21,7 +21,7 @@ const DeadlineTimer = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[#383838]">
       <div className="text-center" style={{ color: textColor }}>
-        <h1 className="text-4xl mb-4">Paper Dealine</h1>
+        <h1 className="text-4xl mb-4">Paper Deadline</h1>
         <p className="text-6xl">
           {remaining.days}<span className="text-4xl">day</span> {remaining.hours}<span className="text-4xl">h</span>
         </p>
