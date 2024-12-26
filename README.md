@@ -25,3 +25,6 @@ npm run dev
 
 `src/utils/date.ts`の DEADLINE 変数を変更
 
+## デプロイ先
+
+https://paper-limit-timer.vercel.app/
