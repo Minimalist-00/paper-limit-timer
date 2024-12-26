@@ -1,7 +1,7 @@
 import { differenceInHours } from 'date-fns'
 import { formatInTimeZone } from 'date-fns-tz'
 
-const DEADLINE = new Date('2025-01-27T23:59:59+09:00')
+const DEADLINE = new Date('2025-01-27T23:59:59+09:00') // 期限日時 直書きw
 
 export const getRemainingTime = () => {
   const now = new Date()
