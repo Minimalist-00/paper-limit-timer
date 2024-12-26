@@ -23,4 +23,4 @@ npm run dev
 
 ## 締め切り変更
 
-`src/utils/dateUtils.ts`の DEADLINE 変数を変更。
+`src/utils/date.ts`の DEADLINE 変数を変更。
