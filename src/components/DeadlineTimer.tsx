@@ -1,6 +1,6 @@
 'use client'
 
-import { getRemainingTime } from '@/components/date'
+import { getRemainingTime } from '@/utils/date'
 import { useEffect, useState } from 'react'
 
 const DeadlineTimer = () => {
