@@ -2,7 +2,7 @@
 
 const TEXT_COLORS = {
   WHITE: 'white',
-  BLUE: '#f22952'
+  RED: '#f22952'
 } as const
 
 type ColorButtonProps = {
@@ -19,8 +19,8 @@ const ColorButton = ({ setTextColor }: ColorButtonProps) => {
       />
       <button
         className="w-7 h-7 rounded-full border-2 border-white"
-        style={{ backgroundColor: TEXT_COLORS.BLUE }}
-        onClick={() => setTextColor(TEXT_COLORS.BLUE)}
+        style={{ backgroundColor: TEXT_COLORS.RED }}
+        onClick={() => setTextColor(TEXT_COLORS.RED)}
       />
     </div>
   )

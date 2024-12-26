@@ -6,7 +6,7 @@ import ColorButton from './ColorButton'
 
 const DeadlineTimer = () => {
   const [remaining, setRemaining] = useState({ days: 0, hours: 0 })
-  const [textColor, setTextColor] = useState('white')
+  const [textColor, setTextColor] = useState('#f22952')
 
   useEffect(() => {
     setRemaining(getRemainingTime())
