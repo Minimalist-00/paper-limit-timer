@@ -23,7 +23,7 @@ const DeadlineTimer = () => {
       <div className="text-center" style={{ color: textColor }}>
         <h1 className="text-4xl mb-4">Paper Dealine</h1>
         <p className="text-6xl">
-          {remaining.days}day {remaining.hours}h
+          {remaining.days}<span className="text-4xl">day</span> {remaining.hours}<span className="text-4xl">h</span>
         </p>
       </div>
       <ColorButton setTextColor={setTextColor} />
