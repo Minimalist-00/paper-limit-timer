@@ -7,6 +7,8 @@ const DeadlineTimer = () => {
   const [remaining, setRemaining] = useState({ days: 0, hours: 0 })
 
   useEffect(() => {
+    setRemaining(getRemainingTime()) // 初回レンダリング時に実行
+
     const timer = setInterval(() => {
       setRemaining(getRemainingTime())
     }, 60000)
