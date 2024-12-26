@@ -1,6 +1,6 @@
 # Graduation Thesis Deadline Timer
 
-卒業論文の締め切りをカウントダウンする Next.js アプリケーション。
+卒業論文の締め切りをカウントダウンする Next.js アプリケーション
 
 ## 特徴
 
