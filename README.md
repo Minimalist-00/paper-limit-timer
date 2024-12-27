@@ -10,9 +10,7 @@
 
 ## 技術スタック
 
-- Next.js (App Router)
-- TypeScript
-- TailwindCSS
+[![My Skills](https://skillicons.dev/icons?i=nextjs,ts,tailwindcss)](https://skillicons.dev)  
 
 ## セットアップ
 
